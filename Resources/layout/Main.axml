@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/icon"
+            android:padding="5dp"
+            android:layout_centerInParent="true" />
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="300dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/lvLog"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:choiceMode="none"
+            android:padding="5dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnCUP1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textColor="@android:color/primary_text_dark"
+            android:background="@drawable/cup1off"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100dp" />
+        <Button
+            android:id="@+id/btnONOFF"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textColor="@android:color/primary_text_dark"
+            android:background="@drawable/btnoff"
+            android:text="OFF"
+            android:layout_centerInParent="true" />
+        <Button
+            android:id="@+id/btnCUP2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textColor="@android:color/primary_text_dark"
+            android:background="@drawable/cup2off"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="100dp" />
+    </RelativeLayout>
+</LinearLayout>

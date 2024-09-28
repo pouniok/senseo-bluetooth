@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{A1BC751B-C167-4035-AA7D-9410D4EB3665}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SenseoBT</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>SenseoBT</AssemblyName>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="LogItemAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btnoff.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btnon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btnoff.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btnon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btnoff.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btnon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\btnoff.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\btnon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\bt.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bt.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bt.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\bt.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btred.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bt.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btred.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btred.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btred.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\btred.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btnoff.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btnon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cup1on.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cup2off.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cup2on.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cup1off.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cup1off.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cup1on.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cup2off.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cup2on.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cup1off.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cup1on.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cup2off.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cup2on.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cup1off.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cup1on.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cup2off.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cup2on.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\cup1off.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\cup1on.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\cup2off.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\cup2on.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\thermometre.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\thermometre.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\thermometre.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\thermometre.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\thermometre.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\wateroff.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\wateron.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\wateroff.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\wateron.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\wateroff.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\wateron.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\wateroff.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\wateron.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\wateroff.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\wateron.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\thermometreon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\thermometreon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\thermometreon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\thermometreon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\thermometreon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
+  </ItemGroup>
+</Project>
