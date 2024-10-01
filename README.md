@@ -3,9 +3,9 @@ Yes, this is really useless, so you should do it too.
 This project is really easy-no-problem, TRUST ME, I would never lie to you. And ask a therapist friend to be here if you have one.
  
 ## Origins
-I don’t know how, but one day I found an article about the Arduino board. I had never heard of it, but when I saw it, I was like I NEED THIS I’M GONNA CHANGE THE WORLD. Then three months later, after I’ve made blink a led, I had no idea what to do with it…
-But I think God with his capability to listen to every thought, caught the despair of my Arduino sleeping in the dust, and he broke the Senseo coffee machine of my office. Message received bro, I’ll take the Senseo and make it work even better than it was (you’re welcome).
-So, the point of this, is to control this fucking machine over bluetooth, add an LCD screen so she can communicate with your stupid cow-orkers, and if we have the time, let it make coffee.
+One day I found an article about the Arduino board, I had never heard of it but when I saw it I was like : I NEED THIS I’M GONNA CHANGE THE WORLD. But three months later, after I’ve only made a led blink, I had no idea what to do with it…
+Hopefuly, I think God with his capability to listen to every thought, caught the despair of my Arduino sleeping in the dust, and he broke the Senseo coffee machine of my office. Message received bro, I’ll take the Senseo and make it work even better than it was (you’re welcome).
+So, the point of this, is to control this fucking machine over bluetooth, add an LCD screen so it can communicate with your stupid cow-orkers, and if we have the time, let it make coffee.
  
 ## Disassembly (LOL EASY)
 Get a hammer and smash it until it opens. Really, opening this machine is like the hardest part of the project, because when you are an engineer in the Senseo team, you spend all your time at the coffee machine, and with 95% caffeine in your blood, you do really stupid things. So, you have to remove the back of the machine, and you should see the water pump unless you are blind, and I don’t understand why the fuck you are reading this is you are fucking blind.
