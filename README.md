@@ -5,12 +5,12 @@ This project is really easy-no-problem, TRUST ME, I would never lie to you. And 
 ## Origins
 One day I found an article about the Arduino board, I had never heard of it but when I saw it I was like : I NEED THIS I’M GONNA CHANGE THE WORLD. But three months later, after I’ve only made a led blink, I had no idea what to do with it…
 Hopefuly, I think God with his capability to listen to every thought, caught the despair of my Arduino sleeping in the dust, and he broke the Senseo coffee machine of my office. Message received bro, I’ll take the Senseo and make it work even better than it was (you’re welcome).  
-So, the point of this, is to control this fucking machine over bluetooth, add an LCD screen so it can communicate with your stupid cow-orkers, and if we have the time, let it make coffee.
+
+So, the point of this, is to control this machine over bluetooth, add an LCD screen so it can communicate with your stupid cow-orkers, and if we have the time, let it make coffee.
  
 ## Disassembly (LOL EASY)
-Get a hammer and smash it until it opens. Really, opening this machine is like the hardest part of the project, because when you are an engineer in the Senseo team, you spend all your time at the coffee machine, and with 95% caffeine in your blood, you do really stupid things. So, you have to remove the back of the machine, and you should see the water pump unless you are blind, and I don’t understand why the fuck you are reading this is you are fucking blind.
+Get a hammer and smash it until it opens. Really, opening this machine is like the hardest part of the project, because when you are an engineer at Senseo, you spend all your time at the coffee machine and with 95% caffeine in your blood, you do really stupid things. So, you have to remove the back of the machine, and you should see the water pump unless you are blind, and I don’t understand why you are reading this is you are blind.
 ![WP_20150320_001](https://github.com/user-attachments/assets/468d8c99-35dc-4661-8c22-d0f02d5aae44)  
-
 
 At the back of the water pump, there are two hidden screws at the bottom of two holes which are about 100 meters deep (we speak in metric here, it’s 2015 you know). Id you really want to open the machine without the hammer technique, you need a screwdriver in a “L” form with gears that let the screwdriver turn from outside the machine BECAUSE THEY LEFT NO SPACE FOR A NORMAL SCREWDRIVER TO FIT.  
 Once you have prayed enough to make the screws disappear, you can try to unclip the bottom part of the machine. It’s possible that your fingers brake before the clips, so be sure to have more than 4 fingers before going straight away in this project.
